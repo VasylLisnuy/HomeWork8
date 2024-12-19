@@ -1,0 +1,87 @@
+h3:first-child {
+  color: pink;
+}
+
+#greycol {
+  color: gray;
+}
+
+div p:first-child {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+div + h3 + p {
+  color: green;
+}
+
+.monday {
+  color: green;
+}
+
+.tuesday {
+  color: yellow;
+}
+
+.wednesday {
+  color: red;
+}
+
+.thursday {
+  color: gray;
+}
+
+.friday {
+  color: brown;
+}
+
+ul li:nth-child(even) {
+  color: red;
+}
+
+ul li:nth-child(odd) {
+  color: black;
+}
+
+ul + ul li:nth-child(3n) {
+  color: green;
+}
+
+ul + ul + ul + ul li:nth-child(-n + 2) {
+  color: cornflowerblue;
+}
+
+ul + ul + ul + ul + ul li:nth-child(3) {
+  color: yellow;
+}
+
+ul + ul + ul + ul + ul li:last-child {
+  color: blueviolet;
+}
+
+.friday li:first-child {
+  color: red;
+}
+
+.monday li:empty {
+  color: aqua;
+}
+
+.thursday li:only-child {
+  color: chartreuse;
+}
+
+.friday li + li + li + li {
+  color: blue;
+}
+
+.monday li:nth-child(n + 2) {
+  color: mediumpurple;
+}
+
+.monday li:first-child {
+  color: violet;
+}
